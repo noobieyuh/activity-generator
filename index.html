@@ -11,15 +11,16 @@
     <title>activity generator!</title>
 </head>
 <body>
+    <script src = "index.js"></script>
     <h1 class = "title-text">Activity Generator!</h1>
     <p class = "support-text">Made with love by noobieyuh <3</p>
     <p class = "info-text">This website will give you random activities to do! If you're bored or not sure what to do, you can use this website to do something! I find myself usually feeling bored and wanting to do something. This website (should) be the solution to my problem! :D</p>
-    <button class = "activity-button">Click Me for an Activity!</button>
+    <button class = "activity-button" onclick="activityGenerator()">Click Me for an Activity!</button>
     <p class = "activity-title">Activity:</p>
     <div class = "container">
         <div class = "alignment">
             <div class = "box">
-                <p class = "activity-text">Click the button!</p>
+                <p class = "activity-text" id = "activity-output">Click the button!</p>
             </div>
         </div>
     </div>

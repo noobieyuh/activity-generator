@@ -1,7 +1,7 @@
 function activityGenerator()
 {
     var activity = "";
-    // generate 200 different responses!
+    // generate 100 responses, (maybe 200 in the future?)
     var activitySelect = (Math.floor(Math.random() * 100) + 1);
     // for debug
     console.log(activitySelect);
@@ -288,8 +288,125 @@ function activityGenerator()
     }
     if(activitySelect == 71)
     {
-        activity = "";
+        activity = "Debug some code!";
     }
+    if(activitySelect == 72)
+    {
+        activity = "Mess around with AI!";
+    }
+    if(activitySelect == 73)
+    {
+        activity = "Make ASCII Art!";
+    }
+    if(activitySelect == 74)
+    {
+        activity = "Build a robot!";
+    }
+    if(activitySelect == 75)
+    {
+        activity = "Give away old stuff!";
+    }
+    if(activitySelect == 76)
+    {
+        activity = "Take pictures!";
+    }
+    if(activitySelect == 77)
+    {
+        activity = "Pick up trash outside!";
+    }
+    if(activitySelect == 78)
+    {
+        activity = "Go to the animal shelter and take care of one!";
+    }
+    if(activitySelect == 79)
+    {
+        activity = "Learn morse code!";
+    }
+    if(activitySelect == 80)
+    {
+        activity = "Learn binary!";
+    }
+    if(activitySelect == 81)
+    {
+        activity = "Learn about routers!";
+    }
+    if(activitySelect == 82)
+    {
+        activity = "Learn Rust!";
+    }
+    if(activitySelect == 83)
+    {
+        activity = "Create a pumpkin!";
+    }
+    if(activitySelect == 84)
+    {
+        activity = "Check your emails!";
+    }
+    if(activitySelect == 85)
+    {
+        activity = "Send a nice letter to someone!";
+    }
+    if(activitySelect == 86)
+    {
+        activity = "Help someone!";
+    }
+    if(activitySelect == 87)
+    {
+        activity = "Do a personality test!";
+    }
+    if(activitySelect == 88)
+    {
+        activity = "Chase a butterfly!";
+    }
+    if(activitySelect == 89)
+    {
+        activity = "Give someone a hug!";
+    }
+    if(activitySelect == 90)
+    {
+        activity = "Check out Advent of Code!";
+    }
+    if(activitySelect == 91)
+    {
+        activity = "Get a degree in something!";
+    }
+    if(activitySelect == 92)
+    {
+        activity = "Make some funny clips!";
+    }
+    if(activitySelect == 93)
+    {
+        activity = "Look at social media!";
+    }
+    if(activitySelect == 94)
+    {
+        activity = "Learn about bash!";
+    }
+    if(activitySelect == 95)
+    {
+        activity = "Learn command prompt!";
+    }
+    if(activitySelect == 96)
+    {
+        activity = "Learn about Linux!";
+    }
+    if(activitySelect == 97)
+    {
+        activity = "Learn about NixOs!";
+    }
+    if(activitySelect == 98)
+    {
+        activity = "Learn more about Windows!";
+    }
+    if(activitySelect == 99)
+    {
+        activity = "Learn more about pc parts!";
+    }
+    if(activitySelect == 100)
+    {
+        activity = "Learn more about Cybersecurity!";
+    }
+
 
     document.getElementById("activity-output").innerHTML = activity;
 }
